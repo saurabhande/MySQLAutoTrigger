@@ -9,6 +9,7 @@ Just Run file CreateTrigger.java file to create
 Make sure Mysql is running on port 3306.
 
 After Running you can view Triggers by running below queries :
+
 SELECT trigger_schema, trigger_name FROM information_schema.TRIGGERS;
 
 (information_schema is default database in MySql which contains metadata of the other newly created database)
